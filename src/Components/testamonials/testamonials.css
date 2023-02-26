@@ -1,0 +1,31 @@
+.testamonails {
+  width: 90vw;
+  height: 500px;
+  background: url("../../Assets/testa.jpg");
+  padding: 50px 5vw;
+}
+.testamonails h4,
+.testamonails span {
+  color: white;
+  font-weight: 500;
+}
+.testamonails h4 {
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+  font-size: 18px;
+}
+.testamonails span {
+  font-size: 24px;
+  font-weight: bolder;
+  /* color: black; */
+}
+.testamonies {
+  margin-top: 20px;
+  display: flex;
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 800px) {
+  .testamonails {
+    width: 800px;
+  }
+}

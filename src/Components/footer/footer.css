@@ -1,0 +1,57 @@
+.footer {
+  background: rgb(58, 67, 85);
+  display: flex;
+  padding: 5vw 5vw;
+  color: white;
+  justify-content: space-between;
+  width: 90vw;
+}
+.footer h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.c1 {
+  margin-right: 50px;
+}
+.c4 {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.c4 button {
+  margin-top: 10px;
+  height: 30px;
+  background-color: rgb(0, 100, 230);
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.footer .c1p {
+  width: 25vw;
+}
+.footer p {
+  color: rgba(255, 255, 255, 0.423);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.footer input {
+  background: none;
+  border: 1px solid white;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+.social {
+  color: rgb(0, 100, 230);
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+}
+@media only screen and (max-width: 800px) {
+  .footer {
+    width: 800px;
+  }
+  .c2 {
+    margin-right: 20px;
+  }
+}

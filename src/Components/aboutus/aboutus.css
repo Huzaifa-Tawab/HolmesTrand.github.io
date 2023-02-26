@@ -1,0 +1,49 @@
+.aboutus {
+  width: 100vw;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../Assets/about.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(178, 178, 178, 0.115);
+}
+.aboutus-img img {
+  height: 80vh;
+  margin-right: 10px;
+}
+.aboutus-content {
+  position: relative;
+  right: 20px;
+  background: white;
+  width: 80vh;
+  height: 60vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+.aboutus-content span {
+  color: blue;
+  /* font-weight: 600; */
+}
+.owner-avatar {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 800px) {
+  .aboutus {
+    width: 860px;
+  }
+  .aboutus-img img {
+    width: 450px;
+  }
+  .aboutus-content {
+    width: 300px;
+  }
+  .aboutus ul {
+    display: none;
+  }
+}

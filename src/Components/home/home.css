@@ -1,0 +1,49 @@
+.home {
+  background: url("../../Assets/home-banner-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+}
+.home-content {
+  color: white;
+  position: relative;
+  top: 35%;
+  width: 40%;
+  left: 2.5%;
+}
+.home-content h1 {
+  font-size: 3rem;
+  line-height: 50px;
+}
+.home-content p {
+  line-height: 30px;
+  margin-right: 20%;
+  line-height: 25px;
+}
+.home-content-button button {
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  margin: 10px;
+}
+.learnmore {
+  background: rgb(0, 100, 230);
+}
+.learnmore:hover {
+  background: rgb(0, 100, 200);
+}
+.ourservices {
+  border: 1px solid white;
+}
+.ourservices:hover {
+  background: white;
+  color: black;
+}
+@media only screen and (max-width: 800px) {
+  .home {
+    width: 860px;
+  }
+}

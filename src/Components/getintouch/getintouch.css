@@ -1,0 +1,71 @@
+.getintouch {
+  width: 90vw;
+  padding: 5vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.getintouch h5 {
+  color: blue;
+  font-weight: 600;
+}
+.getintouch h3 {
+  margin-bottom: 20px;
+}
+.getintouch-content {
+  display: flex;
+  justify-content: center;
+}
+.getintouch-content > div {
+  margin: 5px;
+  width: 40vw;
+  height: 40vw;
+
+  border-radius: 10px;
+}
+.map img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.sendamessage {
+  width: 35vw !important;
+  height: 35vw !important;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.5vw;
+  border: 1px solid rgba(152, 150, 150, 0.691);
+}
+.sendamessage span {
+  color: blue;
+  font-weight: 600;
+}
+.sendamessage input,
+.sendamessage textarea {
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(152, 150, 150, 0.691);
+}
+.sendamessage input {
+  height: 50px;
+  margin-top: 10px;
+}
+.sendamessage textarea {
+  height: 100px;
+  margin-top: 10px;
+}
+.sendamessage button {
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(0, 100, 230);
+  color: white;
+  font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+  .getintouch {
+    width: 800px;
+  }
+}

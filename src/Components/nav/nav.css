@@ -1,0 +1,32 @@
+.navbarbuttons button {
+  margin: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+.navbarbuttons button:hover :not(.navbtn-contact) {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+.navbar {
+  height: 50px;
+  width: 95vw;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0px 2.5vw;
+}
+.logo h1 {
+  text-transform: uppercase;
+  color: blue;
+}
+.navbtn-contact {
+  background: blue;
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+}
+@media only screen and (max-width: 800px) {
+  .navbar {
+    width: 860px;
+  }
+}
